@@ -15,7 +15,7 @@ var DB driver.Conn
 func main() {
 
 	if err := connectClickhouse(); err != nil {
-		log.Fatalf("cannot connect to clickhouse: %s", err.Error())
+		log.Fatalf("Cannot connect to Clickhouse: %s", err.Error())
 	}
 
 }
