@@ -12,7 +12,7 @@
 * On first launch, the program should create a table in clickhouse that stores the migration state.
 * Traverse the migrations directory, check SQL files that have not been applied already in alphanumeric order and apply each sequentially.
 * The program should not rely on filename alone and should check if the files contents have changed since last applied.
-* The tool should support reversion of schema with a command line parameter such as `-rollback 002_alter_column.sql` (see contents of 002_alter_column.sql for rollback). 
+* The tool should support reversion of schema with a command line parameter such as `-rollback 002_alter_column.sql` (see contents of migrations/002_alter_column.sql for rollback). 
 * Unit tests designed to verify:
     * Migration applied
     * No operation needed
