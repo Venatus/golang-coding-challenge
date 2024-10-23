@@ -20,4 +20,4 @@
 
 ## Tools
 
-Dbeaver [https://dbeaver.io/] is a useful UI to connect to clickhouse. This application will use a native connection (port 9000), but dbeaver will need to use http (port 8123)
+[Dbeaver](https://dbeaver.io) is a useful UI to connect to clickhouse. In Go it is preferred to use a native connection (port 9000), but dbeaver will need to use http (port 8123)
